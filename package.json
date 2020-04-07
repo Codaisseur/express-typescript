@@ -1,0 +1,36 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "Express example for my students",
+  "main": "",
+  "scripts": {
+    "build": "npx rimraf build/* && npx tsc",
+    "prestart": "npm run build",
+    "start": "node build/index.js",
+    "dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rein Op 't Land",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Codaisseur/express-typescript.git"
+  },
+  "keywords": [
+    "example",
+    "typescript",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/Codaisseur/express-typescript/issues"
+  },
+  "homepage": "https://github.com/Codaisseur/express-typescript#readme"
+}
